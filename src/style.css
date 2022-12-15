@@ -54,10 +54,10 @@ body {
   border-radius: 5px;
 }
 
-.card-flex{
+.card-flex {
   display: flex;
   position: relative;
-  margin:  18px 0 ;
+  margin: 18px 0;
 }
 
 .card-country {
@@ -68,10 +68,10 @@ body {
   margin: 0 10px 0 15px;
 }
 
-.card-country::before{
+.card-country::before {
   position: absolute;
   content: "";
-  background: #F55A5A;
+  background: #f55a5a;
   width: 10px;
   height: 10px;
   left: 0;
@@ -83,7 +83,15 @@ body {
   font-weight: 400;
   font-size: 10px;
   line-height: 12px;
-  color: #2b283a;
+}
+
+.card-googlelink :hover {
+  opacity: 0.4;
+}
+
+.card-googlelink > a {
+  color: #918e9b;
+  text-decoration-line: underline;
 }
 
 .card-title {
